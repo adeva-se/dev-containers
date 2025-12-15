@@ -1,0 +1,19 @@
+name: Dev Containers Action
+description: "A simple GitHub Action to run dev-container setup commands"
+author: adeva-se
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Run dev-container setup
+      run: |
+        echo "Running dev-container setup..."
+        # Example command: you can replace this with your actual setup
+        if [ -f ./setup.sh ]; then
+          bash ./setup.sh
+        else
+          echo "No setup.sh found, skipping."
+        fi
+
