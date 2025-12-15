@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "templates": {
+      "python": {
+        "id": "python-latest",
+        "name": "Python (Latest)",
+        "description": "Minimal Python development container using the latest official image",
+        "path": "templates/python"
+      },
+      "golang": {
+        "id": "golang-latest",
+        "name": "Go (Latest)",
+        "description": "Minimal Go development container using the latest official image",
+        "path": "templates/golang"
+      }
+    }
+  }
