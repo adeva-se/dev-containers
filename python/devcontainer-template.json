@@ -1,0 +1,9 @@
+{
+  "id": "python-latest",
+  "version": "1.0.0",
+  "name": "Python (Latest)",
+  "description": "Minimal Python development container using the latest official Python image",
+  "documentationURL": "https://www.python.org/",
+  "licenseURL": "https://opensource.org/licenses/MIT",
+  "platforms": ["linux/amd64", "linux/arm64"]
+}
