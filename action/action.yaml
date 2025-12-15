@@ -8,6 +8,7 @@ runs:
       uses: actions/checkout@v4
 
     - name: Run dev-container setup
+      shell: bash
       run: |
         echo "Running dev-container setup..."
         # Example command: you can replace this with your actual setup
