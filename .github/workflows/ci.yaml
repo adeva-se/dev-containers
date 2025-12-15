@@ -11,6 +11,6 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Validate templates
-        uses: adeva-se/dev-containers/action@v1
+        uses: adeva-se/dev-containers/action@main
         with:
           validate-only: true
