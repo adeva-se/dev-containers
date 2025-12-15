@@ -1,0 +1,9 @@
+{
+  "id": "golang-latest",
+  "version": "1.0.0",
+  "name": "Go (Latest)",
+  "description": "Minimal Go development container using the latest official Go image",
+  "documentationURL": "https://go.dev/",
+  "licenseURL": "https://opensource.org/licenses/MIT",
+  "platforms": ["linux/amd64", "linux/arm64"]
+}
